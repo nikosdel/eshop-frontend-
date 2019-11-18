@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.seller.addProduct">
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="220dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+       />
+    <Button
+        android:id="@+id/addproductImageBtn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Προσθηκη φωτογραφιας"
+        android:textSize="12dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="210dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="7dp"
+        android:text="'Ονομα:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/addProductName"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="140dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="7dp"
+        android:text="Τιμή:"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+
+    <EditText
+        android:id="@+id/addProductPrice"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="140dp"/>
+
+    <Button
+        android:id="@+id/addProductBtn"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="100dp"
+        android:text="Προσθηκη"/>
+
+</RelativeLayout>

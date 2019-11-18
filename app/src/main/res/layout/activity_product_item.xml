@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.customer.productItem"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/singleProductImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </ImageView>
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:text="Προϊον"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/singleProductName"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:text="Τιμή"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <TextView
+    android:id="@+id/singleProductPrice"
+    android:layout_width="150dp"
+    android:layout_height="20dp"
+    android:textAlignment="textEnd"
+    android:gravity="end"
+    android:layout_marginTop="10dp"
+    android:textStyle="bold">
+
+
+</TextView>
+<TextView
+    android:layout_width="130dp"
+    android:layout_height="20dp"
+    android:layout_marginTop="10dp"
+    android:textStyle="bold"
+    android:textAlignment="center"
+    android:text="Ποσότητα"
+    >
+
+</TextView>
+
+
+    <EditText
+        android:id="@+id/singleProductQuantity"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:lines="1"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/addProductButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="add"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

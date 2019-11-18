@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paraggelies">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".map"></activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name=".activities.contact" />
+        <activity android:name=".activities.customerSettings" />
+        <activity android:name=".activities.seller.addProduct" />
+        <activity android:name=".activities.customer.makeOrder" />
+        <activity android:name=".activities.seller.allOrders" />
+        <activity android:name=".activities.seller.sellerMenu" />
+        <activity android:name=".activities.seller.sellerLogin" />
+        <activity android:name=".activities.customer.orderHistoryOrder" />
+        <activity android:name=".activities.customer.productItem" />
+        <activity android:name=".activities.customer.products" />
+        <activity android:name=".activities.customer.customerMenu" />
+        <activity android:name=".activities.customer.login" />
+        <activity android:name=".activities.customer.register" />
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

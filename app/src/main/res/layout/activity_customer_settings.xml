@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.customerSettings">
+
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="200dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:text="Username:">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/customerName"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:textSize="10sp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:text="asdad"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="60dp"
+                android:text="Location:">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/customerLocation"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:textSize="10sp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="60dp"
+                android:text="asdad"
+                 />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="5dp"
+                android:text="Id:">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/customerId"
+                android:layout_width="100dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="80dp"
+                android:text="asdad"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/SettingcustomerBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Edit"
+        android:textAlignment="center"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+</LinearLayout>

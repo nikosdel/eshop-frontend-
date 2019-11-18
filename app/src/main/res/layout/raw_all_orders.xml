@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:text="Προϊόν:"
+            android:layout_width="100dp"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/allOrderProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line 1"
+            android:layout_marginLeft="75dp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Τιμή:"
+            android:layout_width="100dp"
+            android:textAlignment="center"
+            android:layout_marginTop="27dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/allOrderPriceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:text="line 2"
+            android:textSize="15sp"
+            android:layout_below="@+id/allOrderProductName"
+            />
+
+        <TextView
+            android:text="Ποσότητα:"
+            android:layout_width="100dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/allOrderQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="line 3"
+            android:textSize="10sp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:text="CustomerId:"
+            android:layout_width="100dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="43dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/allOrderCustomerId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="line 3"
+            android:textSize="10sp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="45dp"/>
+
+        <Button
+            android:id="@+id/allOrderDelete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_delete_black_24dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="10dp"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
